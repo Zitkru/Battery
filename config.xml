@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.phonegap.technit.lacantada"
+        version   = "1.0.0">
+    <name>La Cantada</name>
+
+    <description>
+        App probar battery
+    </description>
+
+    <author href="http://technit.com.mx" email="ventas@technit.com.mx">
+        Technit Solutions SA de CV
+    </author>
+	
+	<access origin="*" />
+	
+	<gap:plugin name="org.apache.cordova.battery-status"/>
+	
+	
+
+    <!-- content src="http://www.w3.org/2010/05/video/mediaevents.html" / -->
+</widget>
